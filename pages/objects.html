@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <div>
+
+        <h2 id="playername">NOMBRE DEL JUGADOR</h2>
+        <h3 id=" health">200</h3>
+
+
+        <button id="shoot">dispara</button>
+        <button id="recoberyhealth">recuperar</button>
+
+    </div>
+
+
+
+    <script>
+
+
+        //objetos
+
+
+
+        // Creación del objeto
+        const jugador = {
+            // Propiedades
+            nombre: "empanadas",
+            nivel: 19,
+            salud: 100,
+            inventario: ["Espada", "Poción", "Arepa"],
+            // Métodos (Funciones internas)
+            curar: function () {
+
+                this.salud += 20; // 'this' se refiere a este mismo objeto
+                console.log("Salud actual: " + this.salud);
+            },
+
+            lostlife: function() {
+                this.salud -=40;
+            }
+       
+       
+       
+       
+         
+        };
+
+        const playername = document.getElementById("playername");
+
+        const healt = document.getElementById("health");
+
+
+
+
+
+        // Acceder y modificar datos con punto
+        jugador.nivel = 16;
+        console.log("Bienvenido, " + jugador.nombre);
+
+        playername.textContent = jugador.nombre;
+        healt.textContent = recoberyhealth;
+
+        const botonshoot = document.getElementById("shoot");
+        const botonrecobery = document.getElementById("recoveryhealt")
+
+        botonshoot.addEventListener("click", function () {
+            jugador.salud
+            healt.textContent = jugador.salud;
+        })
+
+
+        // Ejecutar un método
+        jugador.curar();
+
+
+        // Acceder con corchetes (útil cuando la clave es dinámica)
+        let claveDinamica = "salud";
+        console.log(jugador[claveDinamica]);
+
+    </script>
+
+</body>
+
+</html>
