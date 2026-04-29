@@ -3,31 +3,185 @@
 
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=
-    , initial-scale=1.0">
-    <title>Tablas</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tablas Profesionales</title>
+    <link rel="stylesheet" href="../css/style.css">
 </head>
 
 <body>
 
-    <h1> Tablas </h1>
-    <table>
-        <tr>
-            <th>Diego Andres Villota Miramag</th>
-            <th>11-2</th>
-            <th>Rol en el proyecto</th>
-        </tr>
-        <tr>
-            <td>J</td>
-            <td>Once</td>
-            <td>Programadora</td>
-        </tr>
-        <tr>
-            <td>Luis Pérez</td>
-            <td>Once</td>
-            <td>Diseñador</td>
-        </tr>
-    </table>
+    <main>
+        <section>
+            <h2>Panel de Gestión de Equipo</h2>
+            
+            <div class="table-container">
+                <table class="equipo-table">
+                    <thead>
+                        <tr>
+                            <th>Nombre Completo</th>
+                            <th>Grado</th>
+                            <th>Rol en el Proyecto</th>
+                        </tr>
+                    </thead>
+
+                    <tbody>
+                        <tr>
+                            <td>Diego Andres Villota Miramag</td>
+                            <td>11-2</td>
+                            <td><span class="role role-lider">Líder de Proyecto</span></td>
+                        </tr>
+
+                        <tr>
+                            <td>Julieth Salamanca</td>
+                            <td>Once</td>
+                            <td><span class="role role-programador">Programadora</span></td>
+                        </tr>
+
+                        <tr>
+                            <td>Luis Pérez</td>
+                            <td>Once</td>
+                            <td><span class="role role-diseno">Diseñador</span></td>
+                        </tr>
+
+                        <tr>
+                            <td>Valentina Castro</td>
+                            <td>11-2</td>
+                            <td><span class="role role-analista">Analista de Datos</span></td>
+                        </tr>
+
+                        <tr>
+                            <td>Carlos Ruíz</td>
+                            <td>11-1</td>
+                            <td><span class="role role-doc">Documentador</span></td>
+                        </tr>
+
+                        <tr>
+                            <td>Mariana Torres</td>
+                            <td>11-2</td>
+                            <td><span class="role role-tester">Tester / QA</span></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </section>
+
+        <section>
+            <h2>Cronograma de Entregas</h2>
+            
+            <div class="table-container">
+                <table class="equipo-table">
+                    <thead>
+                        <tr>
+                            <th>Semana</th>
+                            <th>Fecha Límite</th>
+                            <th>Entregable</th>
+                            <th>Estado</th>
+                        </tr>
+                    </thead>
+
+                    <tbody>
+                        <tr>
+                            <td>1</td>
+                            <td>15/03/2026</td>
+                            <td>Planificación y Diseño</td>
+                            <td><span class="status done">✓ Completado</span></td>
+                        </tr>
+
+                        <tr>
+                            <td>2</td>
+                            <td>22/03/2026</td>
+                            <td>Estructura HTML/CSS</td>
+                            <td><span class="status done">✓ Completado</span></td>
+                        </tr>
+
+                        <tr>
+                            <td>3</td>
+                            <td>29/03/2026</td>
+                            <td>Funcionalidades JS</td>
+                            <td><span class="status progress">⏳ En Progreso</span></td>
+                        </tr>
+
+                        <tr>
+                            <td>4</td>
+                            <td>05/04/2026</td>
+                            <td>Pruebas y QA</td>
+                            <td><span class="status pending">⏸ Pendiente</span></td>
+                        </tr>
+
+                        <tr>
+                            <td>5</td>
+                            <td>12/04/2026</td>
+                            <td>Documentación Final</td>
+                            <td><span class="status pending">⏸ Pendiente</span></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </section>
+
+        <section>
+            <h2>Tareas del Proyecto</h2>
+            
+            <div class="table-container">
+                <table class="equipo-table">
+                    <thead>
+                        <tr>
+                            <th>ID</th>
+                            <th>Tarea</th>
+                            <th>Responsable</th>
+                            <th>Prioridad</th>
+                        </tr>
+                    </thead>
+
+                    <tbody>
+                        <tr>
+                            <td>#001</td>
+                            <td>Crear estructura del sitio</td>
+                            <td>Diego Andres</td>
+                            <td><span class="priority high">Alta</span></td>
+                        </tr>
+
+                        <tr>
+                            <td>#002</td>
+                            <td>Diseñar interfaz visual</td>
+                            <td>Luis Pérez</td>
+                            <td><span class="priority high">Alta</span></td>
+                        </tr>
+
+                        <tr>
+                            <td>#003</td>
+                            <td>Implementar formularios</td>
+                            <td>Julieth Salamanca</td>
+                            <td><span class="priority medium">Media</span></td>
+                        </tr>
+
+                        <tr>
+                            <td>#004</td>
+                            <td>Agregar animaciones JS</td>
+                            <td>Julieth Salamanca</td>
+                            <td><span class="priority medium">Media</span></td>
+                        </tr>
+
+                        <tr>
+                            <td>#005</td>
+                            <td>Verificar responsive design</td>
+                            <td>Mariana Torres</td>
+                            <td><span class="priority low">Baja</span></td>
+                        </tr>
+
+                        <tr>
+                            <td>#006</td>
+                            <td>Compilar documentación</td>
+                            <td>Carlos Ruíz</td>
+                            <td><span class="priority low">Baja</span></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </section>
+
+        <p class="footer">IEM Santa Teresita - 2026</p>
+    </main>
 
 </body>
 
