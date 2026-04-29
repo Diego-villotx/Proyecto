@@ -75,29 +75,34 @@
             font-weight: bold;
         }
 
-        .role-lider { 
-            background: var(--naranja); 
-            color: var(--negro); 
+        .role-lider {
+            background: var(--naranja);
+            color: var(--negro);
         }
-        .role-programador { 
-            background: var(--azul); 
-            color: var(--blanco); 
+
+        .role-programador {
+            background: var(--azul);
+            color: var(--blanco);
         }
-        .role-diseno { 
-            background: #9b59b6; 
-            color: var(--blanco); 
+
+        .role-diseno {
+            background: #9b59b6;
+            color: var(--blanco);
         }
-        .role-analista { 
-            background: #2ecc71; 
-            color: var(--negro); 
+
+        .role-analista {
+            background: #2ecc71;
+            color: var(--negro);
         }
-        .role-doc { 
-            background: #1abc9c; 
-            color: var(--negro); 
+
+        .role-doc {
+            background: #1abc9c;
+            color: var(--negro);
         }
-        .role-tester { 
-            background: #e74c3c; 
-            color: var(--blanco); 
+
+        .role-tester {
+            background: #e74c3c;
+            color: var(--blanco);
         }
 
         /* Estados de cronograma */
